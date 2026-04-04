@@ -1,13 +1,16 @@
-# power-bi-analyst-dio-bootcamp
+# Power BI Analyst - DIO Bootcamp
 
-Power BI - Financial Sales Report
-Project developed as part of the DIO Power BI Analyst bootcamp (Module 4).
-Objective: Replicate and create a 3-page financial sales report using the Financial Sample dataset.
-Pages:
+Projects developed as part of the DIO Power BI Analyst bootcamp, built entirely in Power BI Service (browser) on Mac without access to Power BI Desktop.
 
-Page 1: Sales by Product and Segment
-Page 2: Sales by Country and Profit
-Page 3: Distribution of Profit, Sales and Units Sold by Country and Segment
+## Modules
 
-Tools: Power BI Service (browser), OneDrive for Business
-Dataset: Financial Sample (Microsoft)
+### Module 4 - Financial Sales Report
+3-page static report replicating a financial sales dashboard.
+
+### Module 5 - Interactive Sales Report
+2-page interactive report with bookmark-based visual toggles and navigation buttons.
+
+## Tools
+- Power BI Service (browser)
+- OneDrive for Business
+- Dataset: Financial Sample (Microsoft)
