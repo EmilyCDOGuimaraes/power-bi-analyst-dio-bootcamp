@@ -32,3 +32,28 @@ The original instructions assumed an Azure MySQL instance — bypassed here due 
 ---
 
 ## Relationships (Model View)
+
+| employee.Dno          →  department.Dnumber |
+| employee.Ssn          →  dependent.Essn |
+| employee.Ssn          →  work_on.Essn |
+| work_on.Pno           →  projects.Pnumber |
+| location.Dnumber      →  department.Dnumber |
+| employee.Super_ssn    →  department.Mgr_ssn |
+
+---
+
+## Why Merge and not Append?
+
+**Append** stacks tables vertically — it combines rows from two tables with the same structure. You'd use this if, say, you had sales data from two different regions and wanted one unified table.
+
+**Merge** combines tables horizontally by matching on a key column — it enriches one table with data from another. That's exactly what this project required: not adding more employees or departments, but adding *information about departments* to each employee row.
+
+Using Append here would have tried to stack employee rows on top of department rows — which makes no structural sense.
+
+---
+
+## Tools
+
+- Power BI Service (browser)
+- OneDrive for Business
+- Dataset: Company database (adapted from Elmasri & Navathe)
