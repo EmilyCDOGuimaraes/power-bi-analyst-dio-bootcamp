@@ -31,13 +31,13 @@ The workflow is simple and real: a customer brings in a vehicle, a mechanic eval
 
 ## ER Diagram
 
-<img width="1594" height="955" alt="er_diagram_carshop" src="https://github.com/user-attachments/assets/940b1b61-ce3e-415d-bb9a-d20b1cbbfcd6" />
+<img width="1594" height="955" alt="er_diagram_carshop" src="https://github.com/user-attachments/assets/6eb0cf12-575e-4c19-9fce-fba2edb13311" />
 
 ---
 
 ## SQL queries — business questions answered
 
-Eight queries covering all required SQL clauses. Full script in `oficina_queries.sql`.
+Eight queries covering all required SQL clauses. Full script in `repair_shop_queries.sql`.
 
 **Q1 — How many service orders per customer?**
 LEFT JOIN + GROUP BY — includes customers with no orders.
@@ -73,9 +73,9 @@ https://www.db-fiddle.com/f/39nut7VG4gqvXCY8yjZEwq/4
 
 ## Files in this repository
 
-- `oficina_schema.sql` — CREATE TABLE statements + test data
-- `oficina_queries.sql` — all 8 SELECT queries with comments
-- `er_diagram.png` — visual ER diagram
+- `repair_shop_schema.sql` — CREATE TABLE statements + test data
+- `repair_shop_queries.sql` — all 8 SELECT queries with comments
+- `er_diagram_carshop.png` — visual ER diagram
 - `README.md` — this file
 
 ---
